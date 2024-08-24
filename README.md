@@ -32,11 +32,11 @@ The E-Commerce Project is a scalable and feature-rich platform aimed at providin
 
 This project uses a combination of modern technologies to ensure a high-performance, maintainable, and secure platform. Key technologies include:
 
-- **Frontend**: React, Redux, Bootstrap
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
+- **Frontend**: Angular
+- **Backend**: Spring
+- **Database**: MySQL
 - **Authentication**: JWT (JSON Web Tokens)
-- **Payment Gateway**: Stripe / PayPal
+- **Payment Gateway**: Stripe / Razorpay
 - **Deployment**: Docker, Kubernetes, AWS
 
 ## Setup Instructions
@@ -45,7 +45,7 @@ To get started with the E-Commerce Project, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/e-commerce-project.git
+    git clone https://github.com/PHP0001/e-commerce-project.git
     ```
 
 2. **Navigate to the Project Directory**:
@@ -57,7 +57,7 @@ To get started with the E-Commerce Project, follow these steps:
     - For the backend:
         ```bash
         cd backend
-        npm install
+        mvn install
         ```
     - For the frontend:
         ```bash
@@ -72,7 +72,7 @@ To get started with the E-Commerce Project, follow these steps:
     - Start the backend server:
         ```bash
         cd backend
-        npm start
+        mvn start
         ```
     - Start the frontend application:
         ```bash
@@ -81,7 +81,7 @@ To get started with the E-Commerce Project, follow these steps:
         ```
 
 6. **Access the Application**:
-    Open your browser and navigate to `http://localhost:3000` to see the application in action.
+    Open your browser and navigate to `http://localhost:8080` to see the application in action.
 
 ## Usage
 
@@ -121,7 +121,7 @@ This project is licensed under the [MIT License](LICENSE). See the `LICENSE` fil
 
 For any questions or further information, please contact:
 
-- **Email**: support@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Email**: php0001@gmail.com
+- **GitHub**: [php0001](https://github.com/php0001)
 
 Thank you for your interest in the E-Commerce Project! We hope you find it useful and enjoyable.
